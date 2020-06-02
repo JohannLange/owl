@@ -23,7 +23,6 @@
 #include <signal.h>
 #include <syslog.h>
 #include <errno.h>
-#include <ev.h>
 
 #include "log.h"
 #include "core.h"
