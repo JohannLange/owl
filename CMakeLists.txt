@@ -9,6 +9,8 @@ endif ()
 add_library(radiotap radiotap/radiotap.c)
 target_compile_definitions(radiotap PRIVATE -D_BSD_SOURCE -DRADIOTAP_SUPPORT_OVERRIDES)
 
+add_subdirectory(libev-win)
+
 add_subdirectory(src)
 
 add_subdirectory(daemon)
