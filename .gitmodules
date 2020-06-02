@@ -7,3 +7,6 @@
 [submodule "npcap"]
 	path = npcap
 	url = https://github.com/nmap/npcap.git
+[submodule "libev-win"]
+	path = libev-win
+	url = https://github.com/disenone/libev-win.git
