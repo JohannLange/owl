@@ -21,7 +21,11 @@
 #define OWL_CORE_H
 
 #include <stdbool.h>
+#ifdef __WIN32__
+#include "../libev-win/ev.h"
+#else
 #include <ev.h>
+#endif
 
 #include "state.h"
 #include "circular_buffer.h"
